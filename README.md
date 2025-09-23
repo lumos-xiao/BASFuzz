@@ -77,26 +77,28 @@ Follow these steps to run the attack from the library:
 Take a look at the `Models` directory in [Hugging Face](https://huggingface.co/models) to run the test across any threat model.
 
 ## Available test methods
-1. CheckList
-2. StressTest
-3. PWWS
-4. TextBugger
-5. TextFooler
-6. BAE
-7. BERT-attack
-8. CLARE
-9. Deepwordbug
-10. Alzantot
-11. Faster-alzantot
-12. IGA
-13. LEAP
-14. PSO
-15. PRUTHI
-16. Kuleshov
-17. Input-reduction
-18. ABS
-19. ABFS
-20. BASFuzz
+| Method | Paper |
+|:-----|:----:|
+| CheckList | [Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://www.ijcai.org/proceedings/2021/659) |
+| StressTest | [Stress Test Evaluation for Natural Language Inference](https://aclanthology.org/C18-1198/) |
+| PWWS | [Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency](https://www.aclweb.org/anthology/P19-1103/) |
+| TextBugger | [TextBugger: Generating Adversarial Text Against Real-world Applications](https://www.ndss-symposium.org/ndss-paper/textbugger-generating-adversarial-text-against-real-world-applications/) |
+| TextFooler | [Is BERT Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment](https://ojs.aaai.org/index.php/AAAI/article/view/6311) |
+| BAE | [BAE: BERT-based Adversarial Examples for Text Classification](https://aclanthology.org/2020.emnlp-main.498/) |
+| BERT-attack | [BERT-ATTACK: Adversarial Attack Against BERT Using BERT](https://aclanthology.org/2020.emnlp-main.500/) |
+| CLARE | [Contextualized Perturbation for Textual Adversarial Attack](https://aclanthology.org/2021.naacl-main.400/) |
+| DeepWordBug | [Black-box Generation of Adversarial Text Sequences to Evade Deep Learning Classifiers](https://ieeexplore.ieee.org/document/8424632) |
+| Alzantot | [Generating Natural Language Adversarial Examples](https://aclanthology.org/D18-1316/) |
+| Faster-Alzantot | [Certified Robustness to Adversarial Word Substitutions](https://aclanthology.org/D19-1423/) |
+| IGA | [Natural Language Adversarial Defense through Synonym Encoding](https://proceedings.mlr.press/v161/wang21a.html) |
+| LEAP | [LEAP: Efficient and Automated Test Method for NLP Software](https://ieeexplore.ieee.org/abstract/document/10298415/) |
+| PSO | [Word-level Textual Adversarial Attacking as Combinatorial Optimization](https://www.aclweb.org/anthology/2020.acl-main.540/) |
+| Pruthi | [Combating Adversarial Misspellings with Robust Word Recognition](https://aclanthology.org/P19-1561/) |
+| Kuleshov | [Adversarial Examples for Natural Language Classification Problems](https://openreview.net/pdf?id=r1QZ3zbAZ) |
+| Input-reduction | [Pathologies of Neural Models Make Interpretations Difficult](https://pdfs.semanticscholar.org/18eb/c6dfa3ed6096e6200cc74b8d29c75c13706d.pdf) |
+| ABS | [Automated Robustness Testing for LLM-based Natural Language Processing Software](https://arxiv.org/abs/2412.21016) |
+| ABFS | [ABFS: Natural Robustness Testing for LLM-based NLP Software](https://arxiv.org/pdf/2503.01319) |
+| BASFuzz | [BASFuzz: Towards Robustness Evaluation of LLM-based NLP Software via Automated Fuzz Testing](https://arxiv.org/pdf/2509.17335) |
 
 ## License
 This code and model are available for non-commercial scientific research purposes as defined in the [LICENSE](LICENSE) file. By downloading and using the code and model you agree to the terms in the [LICENSE](LICENSE).
